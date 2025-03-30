@@ -211,7 +211,7 @@ class Feedback:
         return f"Feedback by {self.__guest.get_name()}: {self.__rating} stars - {self.__category}"
 
 
-# Part C Test Cases 
+# Part C Test Cases
 if __name__ == "__main__":
     print("\n--- Guest Account Creation ---")
     guest1 = Guest("G100", "Saif Ali", "saif9ali@gmail.com", "pass123", "050-1334867", "Gold")
